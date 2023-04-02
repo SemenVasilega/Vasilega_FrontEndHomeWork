@@ -1,0 +1,13 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+span{
+    color: blue;
+}
+#bolt{
+    font-weight: bold;
+}
+ol{
+ padding: 10px;
+}
