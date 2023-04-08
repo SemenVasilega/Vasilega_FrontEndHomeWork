@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+}
+header{
+    background-color: #FFFFFF;
+    padding: 65px 0 43px 0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.logo-block,.social-block{
+    display: inline-block;
+}
+.logo-block{
+    width: 400px;
+}
+.social-block{
+    width: 556px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 7px;
+}
+
+.social-block a{
+    margin-right: 20px;
+}
+.social-block a:last-child{
+    margin-right: 0;
+}
+header a{
+    display: inline-block;
+    text-decoration: none;
+}
+.enter-email{
+    background-color: #FAC960;
+    height: 421px;
+}
+.enter-email h1{
+    font-weight: 400;    
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 44px;
+    line-height: 54px;
+    color: #8A6D2F;    
+    padding-top: 102px;
+    margin: 0;
+}
+.enter-email h2{
+    font-weight: 400;    
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 43px;
+    line-height: 54px;
+    color: #8A6D2F;    
+    padding-top: 0px;
+    margin: 0;
+}
+.enter-email form{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 117px;        
+}
+.enter-email input{
+    width: 560px;
+    height: 54px;
+    border: none;
+    text-align: center;
+    line-height: 54px;
+    /* margin-top: 40px; */
+    padding: 0;
+}
+.enter-email input::placeholder{
+    /* font-family: Roboto; */
+    font-weight: 330px;
+    line-height: 54px;
+    font-size: 30px;
+    text-align: center;
+    color: #999999;
+    padding-left: 36px;
+    padding-right: 194px;
+}
+.enter-email button{
+    width: 240px;
+    height: 54px;
+    background-color: #A8863D;
+    color: #FFFFFF;
+    border: none;    
+    /* font-family: Roboto; */
+    font-size: 30px;
+    line-height: 54px;
+       
+}
