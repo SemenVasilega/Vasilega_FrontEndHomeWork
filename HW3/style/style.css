@@ -13,7 +13,7 @@ header{
     width: 960px;
     margin: 0 auto;
 }
-.logo-block,.social-block{
+.logo-block,.social-block,.social{
     display: inline-block;
 }
 .logo-block{
@@ -73,6 +73,8 @@ header a{
     line-height: 54px;
     /* margin-top: 40px; */
     padding: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 .enter-email input::placeholder{
     /* font-family: Roboto; */
@@ -114,7 +116,7 @@ header a{
     padding-top: 32px;    
     margin: 0 310px 0 311px;
     color: rgba(0, 0, 0, 0.4);
-    width: 819;
+    width: 800;
     
 }
 .image{
@@ -124,4 +126,35 @@ header a{
 .image a{
     text-decoration: none;
     display: inline-block;
+}
+.tell-friends{
+    background-color: #FAC960;
+    height: 313px;
+    text-align: center;
+}
+.tell-friends button{
+    /* text-align: center; */
+    width: 61px;
+    height: 22px;
+    font-size: 17px;
+    margin-top: 33px;
+    margin-bottom: 107px;    
+}
+footer{
+    height: 240px;
+    text-align: center;
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+}
+footer .logo{
+    margin-top: 81px;
+}
+footer .social{
+    margin: 26px;
+    margin-bottom: 81.37px;
+}
+footer a{
+    margin-left: 22px;
 }
