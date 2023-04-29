@@ -1,0 +1,414 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+.btn{
+    padding: 10px 16px;
+    text-align: center;
+}
+.btn-dark-bg{
+    background: #0062FF;
+    color: #fff;
+    border: 1px solid #0062FF;
+}
+.btn-light-bg{
+    background-color: #fff;
+    color: #575757;
+    border: 1px solid #575757;
+}
+.text{
+    font-size: 16px;
+    line-height: 19px;
+    }
+.title{
+    font-size: 36px;
+    line-height: 43px;
+}
+.sub-title{
+    font-size: 27px;
+    line-height: 32px;
+}
+.sub-title2{
+    font-size: 21px;
+    line-height: 25px;
+}
+/* start Styles for header */
+.heade-container{
+    /* width: 92.592%; */
+    width: 1400px;
+    margin: 0 auto;    
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 16px 0;
+}
+.d-flex{
+    display: flex;
+}
+nav{
+    justify-content: flex-end;
+}
+nav>ul{
+    list-style: none;
+    margin-right: 8px;
+}
+nav>ul li{
+    margin-right: 24px;
+    margin-top: 10px;    
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #000000;    
+}
+.menu-item:hover{
+    text-decoration: underline;
+    color: #2203E4;
+}
+.button-header{
+    border: 1px solid #2203E4;;
+    background-color:  #fff;
+    color: #2203E4;
+    font-size: 21px;
+    padding: 10px 16px;
+    width: 128px; 
+}
+.button-header:hover{
+    background-color: #2203E4;
+    color: #ffffff;
+}
+/* finished styles for header */
+/* start styles for first section */
+.section-one{
+    padding: 100px 0 120px;
+}
+.wrapper{
+    /* width: 84%; */
+    width: 1270px;
+    margin: 0 auto;    
+}
+.section-one-content{
+    justify-content: space-between;
+    align-items: center;
+}
+.discription{
+    padding-left: 81px;
+    padding-right: 48px;
+    /* padding: 0 90px; */
+    /* width: 631px; */
+}
+.main-title{    
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    padding: 10px 49px 24px 10px;
+}
+.discription-text{
+    padding: 0 10px 24px 10px;
+    color: #000000;
+    font-weight: 400;  
+}
+.discription-btn-dark{
+    width: 94px;
+    height: 39px;
+    margin-left: 10px;
+    margin-right: 24px;
+}
+.discription-btn-light{
+    width: 135px;
+    height: 39px;
+}
+.section-one-image{
+    /* text-align: left; */
+    padding-left: 48px;
+    width: 48%;   
+}
+/* finished styles for first section */
+/* start styles for section two */
+.section-two{
+    padding-bottom: 143px;
+}
+/* .autors */
+.for-all{
+    text-align: center;
+    padding-bottom: 36px;
+    padding-left: 289.5px;
+    padding-right: 289.5px;
+}
+.title-autors{
+    color: #000000;
+    padding-bottom: 12px;
+}
+.text-autors{
+    color: #575757;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.autors-image{
+    padding: 12.5px 34px 12.5px 0;
+}
+.about-autor{
+    width: 740px;
+    padding-right: 112px;
+    text-align: start;
+}
+.title-about-autor{
+    color: #000000;
+}
+.job-title{
+    padding-bottom: 12px;
+}
+.social-icon{
+    padding-top: 24px;
+    /* padding-bottom: 143px; */
+}
+.social-icon>a{
+    margin-right: 19px;
+    text-decoration: none;
+}
+.autors-job-position{
+    padding-right: 70px;
+    width: 333px;     
+}
+.autor1-title,.autor3-title{
+    color: #DEA405;
+}
+.autor1-text,.autor3-text{
+    color: #FFBE0B;
+}
+.autor2-title{
+    color: #000000;
+}
+.autor2{
+    padding: 8px 0;
+    position: relative;
+}
+.autor2::before{
+    content: "";
+    position: absolute;
+    left: -24px;
+    bottom: 27px;
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    background-image: url(../image/autor_arrow.png);
+    background-repeat: no-repeat;
+}
+/* finished styles for section two */
+/* start styles for section three */
+.section-three{
+    padding: 71px 0;
+    background-color: #0062FF;
+}
+.text-for-who-section-three, .discription-for-who{
+    color: #ffffff;
+}
+.title-for-who{
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+.text-for-who{
+    padding-bottom: 64px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.discription-for-who{
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+.discription-for-who:last-child{
+    margin-bottom: 64px;
+}
+.block-for-who .image-for-who{
+    float: left;
+    margin: 0 34px 20px 0;
+}
+.title-discription-for-who{
+    padding-bottom: 8px;
+    margin-right: 65px;
+    width: 530px;
+}
+.btn-for-who-block{
+    justify-content: center;
+    padding-bottom: 71px;
+}
+.btn-for-who{
+    border: 1px solid #0062FF;
+    color: #2203E4;
+    font-size: 16px;
+    line-height: 19px; 
+    font-weight: 400;   
+    width: 99px;
+}
+.btn-for-who:hover{
+    color: #ffffff;
+    background-color: #2203E4;
+    border: 1px solid #ffffff;
+}
+/* finished styles for section three */
+/* start styles for section four */
+.section-four{
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+.title-section-four{
+    padding-bottom: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+.text-section-four{
+    padding-bottom: 44px;
+}
+.video-discription{
+    margin-right: 44px;
+    margin-left: 80px;
+    width: 611px;
+}
+.title-video-discription{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.text-video-discription{
+    text-align: center;
+    padding-bottom: 24px;
+}
+/* finished styles for section four */
+/* start styles for section five */
+.section-five{
+    background-color: #FFBE0B;
+    padding-top: 67px;
+    padding-bottom: 67px;    
+}
+.opinions-section-five{
+    padding-bottom: 42px;
+}
+.title-opinion-section-five{
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.opinion-rates-section-five{
+    align-items: center;
+    width: 702px;    
+    padding: 59.5px 16px 59.5px 75px;
+    background-color: #F3F3F3;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.name-opinion{    
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+}
+.name-opinion::after{
+    content: "";
+    display: inline-block;
+    width: 158px;
+    height: 26px;
+    background-image: url(../image/stars.png);
+    background-repeat: no-repeat;
+}
+.work-position-section-five{
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 16px;
+    position: relative;
+}
+.work-position-section-five::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -54px;
+    display: inline-block;
+    width: 47px;
+    height: 41px;
+    background-image: url(../image/Bubble.png);
+    background-repeat: no-repeat;
+}
+/* finised styles for section five */
+/* start styles for section six */
+.section-six{
+    padding-top: 89px;
+    padding-bottom: 103.62px;
+}
+.title-start-section-six{
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.product-bloc-section-six{
+    padding-left: 155px;
+}
+.about-product-section-six{
+    padding: 73.19px 0 73.19px 13px;
+}
+.title-about-product-section-six{
+    color: #2203E4;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.text-about-product-section-six{
+    padding-bottom: 16px;
+}
+.btn-about-product-section-six{
+    width: 122px;
+    height: 39px;
+}
+.form-section-six{
+    padding-left: 377px;
+    padding-right: 384px;
+}
+.form-section-six form{
+    padding-top: 74px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+    height: 183px;   
+}
+.title-input-section-six{
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 28px;
+}
+input.input-email{
+    line-height: 70px;
+    width: 508px;
+    background-color: rgba(58, 134, 255, 0.2);
+    border-radius: 12px;
+    border: none;
+    color: #2203E4;
+    padding-left: 24px;
+    margin-bottom: 14px;
+}
+input.input-email::placeholder{
+    color: #2203E4;
+    padding: 25px 0;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+}
+input.btn-form-section-six{
+    line-height: 40px;
+    border: none;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;    
+}
+
+
